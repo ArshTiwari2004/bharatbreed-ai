@@ -1,0 +1,18 @@
+# Core ML / DL
+tensorflow-cpu>=2.15,<3.0     # use `tensorflow` instead if you have a CUDA GPU available
+numpy>=1.24
+pillow>=10.0
+
+# Computer vision utilities (used in the pre-processing / augmentation stage)
+opencv-python-headless>=4.8
+
+# Dataset handling / evaluation
+scikit-learn>=1.3
+
+# Testing
+pytest>=7.4
+
+# --- Optional, only needed for the pieces the synopsis lists as stretch goals ---
+# streamlit>=1.28            # if you build the interactive demo UI mentioned in section 4.3
+# fastapi>=0.104             # if you expose inference as a real HTTP service
+# uvicorn>=0.24
